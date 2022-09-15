@@ -188,3 +188,10 @@ button {
       flex-direction: column;
    }
 }
+.head-font{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 900;
+}
+.acc-font{
+   font-size: 18px !important;
+}
