@@ -18,61 +18,47 @@
             <h1>Speed Typer | Blog</h1>
          </div>
          <!-- Question accordion Start -->
-         <div class="my-4 pt-2 container-fluid">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-               <div class="accordion-item border border-3 border-secondary my-3 shadow">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                     <button class="accordion-button fw-semibold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                        What is the difference between local storage and session storage?
-                     </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body acc-font fw-semibold">
-                        Local Storage and Session Storage are almost identical and have the same API. The difference is that with Session Storage , the data is persisted only until the window or tab is closed. With Local Storage , the data is
-                        persisted until the user manually clears the browser cache or until your web app clears the data.
-                     </div>
+         <div class="my-4 pt-2 container-fluid text-light">
+            <div class="mb-5">
+               <h2 class="fw-semibold py-2">What is the difference between Local Storage and Session Storage?</h2>
+               <div>
+                  <div class="acc-font fw-semibold">
+                     <p class="mb-0 text-danger">Answer:</p>
+                     Local Storage and Session Storage are almost identical and have the same API. The difference is that with Session Storage , the data is persisted only until the window or tab is closed. With Local Storage , the data is persisted
+                     until the user manually clears the browser cache or until your web app clears the data.
                   </div>
                </div>
-               <div class="accordion-item border border-3 border-secondary my-3 shadow">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                     <button class="accordion-button collapsed fw-semibold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        What is the difference between Global Scope and Block Scope?
-                     </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body acc-font fw-semibold">
-                        In a browser environment, the Global Scope is controlled by the window object while in Node.js, it's controlled by the Global Object. Block Scopes are what you get when you use if statements, for statements, and the like.
-                     </div>
+            </div>
+            <div class="mb-5">
+               <h2 class="fw-semibold py-2">What is the difference between Global Scope and Block Scope?</h2>
+               <div>
+                  <div class="acc-font fw-semibold">
+                     <p class="mb-0 text-danger">Answer:</p>
+                     In a browser environment, the Global Scope is controlled by the window object while in Node.js, it's controlled by the Global Object. Block Scopes are what you get when you use if statements, for statements, and the like.
                   </div>
                </div>
-               <div class="accordion-item border border-3 border-secondary my-3 shadow">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                     <button class="accordion-button collapsed fw-semibold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        How does JavaScript Event Loop work?
-                     </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body acc-font fw-semibold">
-                        The Event Loop has one simple job that's to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which
-                        effectively runs it. Such an iteration is called a tick in the Event Loop.
-                     </div>
+            </div>
+            <div class="mb-5">
+               <h2 class="fw-semibold py-2">How does JavaScript Event Loop work?</h2>
+               <div>
+                  <div class="acc-font fw-semibold">
+                     <p class="mb-0 text-danger">Answer:</p>
+                     The Event Loop has one simple job that's to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively
+                     runs it. Such an iteration is called a tick in the Event Loop.
                   </div>
                </div>
-               <div class="accordion-item border border-3 border-secondary my-3 shadow">
-                  <h2 class="accordion-header" id="flush-headingFour">
-                     <button class="accordion-button collapsed fw-semibold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        How many ways to get Undefined?
-                     </button>
-                  </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body acc-font fw-semibold">
-                        There are so many ways to get Undefined. Some of them are- <br />
-                        1. When we want to get a value of a variable which is not initialized. <br />
-                        2. When we want to access an object property which isn't exist on the object. <br />
-                        3. When we want to access an array element by index, but the index input is out this array's input range. <br />
-                        4. Function with no return will give undefined. <br />
-                        5. Function Parameter which isn't pass will give Undefined 6. By setting a variable's value to Undefined directly.
-                     </div>
+            </div>
+            <div class="mb-5">
+               <h2 class="fw-semibold py-2">How many ways to get Undefined?</h2>
+               <div>
+                  <div class="acc-font fw-semibold">
+                     <p class="mb-0 text-danger">Answer:</p>
+                     There are so many ways to get Undefined. Some of them are- <br />
+                     1. When we want to get a value of a variable which is not initialized. <br />
+                     2. When we want to access an object property which isn't exist on the object. <br />
+                     3. When we want to access an array element by index, but the index input is out this array's input range. <br />
+                     4. Function with no return will give undefined. <br />
+                     5. Function Parameter which isn't pass will give Undefined 6. By setting a variable's value to Undefined directly.
                   </div>
                </div>
             </div>
